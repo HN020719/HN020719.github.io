@@ -11,7 +11,7 @@ institution = "University of California, San Diego"
 avatar = "/bio.jpg"
 
 [social]
-email = "n5huang@ucsd.edu"
+email = "nanhuang.0719@gmail.com"
 location = "San Diego, California"
 location_url = "https://maps.google.com/?q=San+Diego+California"
 location_details = [
@@ -20,7 +20,7 @@ location_details = [
 ]
 google_scholar = ""
 github = "https://github.com/HN020719"
-linkedin = "https://linkedin.com/in/"
+linkedin = "https://www.linkedin.com/in/nan-huang-666363211/"
 
 [features]
 enable_likes = true
