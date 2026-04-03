@@ -1,7 +1,19 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-03"
+content = "Presented poster at UCSD PhD Open House: *Identifying Causal Genomic Factors and Optimizing Structural Representations for Sequence Modeling*"
+
+[[news]]
+date = "2026-01"
+content = "Submitted two papers to COLM 2026: EvoLen and Simulating Organized Group Behavior"
+
+[[news]]
+date = "2025-10"
+content = "Presented poster at ASHG 2025: *Enhancing Childhood Asthma Risk Prediction with Biologically Informed Polygenic Transcriptomic Models*"
 
 [[news]]
 date = "2025-09"
-content = "Starting my PhD at the University of Example"
+content = "Started my PhD in Data Science at UC San Diego"
+
+[[news]]
+date = "2025-03"
+content = "Graduated B.S. in Data Science, Mathematics and Economics from UCSD with Provost Honors"

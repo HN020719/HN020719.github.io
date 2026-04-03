@@ -1,0 +1,45 @@
+type = "card"
+title = "Experience"
+description = "Research and professional experience."
+
+[[items]]
+title = "Graduate Researcher"
+subtitle = "UCSD Halicioglu Data Science Institute"
+date = "2025 - Present"
+content = "Developing DNA language models (EvoLen) with evolution-guided tokenization. Building integrated genetic and transcriptomic models for neonatal asthma risk prediction."
+tags = ["Research", "Genomics", "ML"]
+
+[[items]]
+title = "Senior Student Researcher"
+subtitle = "UC Institute on Global Conflict and Cooperation"
+date = "2023 - 2025"
+content = "Developed NLP models and SQL databases to analyze China's innovation ecosystem."
+tags = ["Research", "NLP", "Data Engineering"]
+
+[[items]]
+title = "Data Engineer"
+subtitle = "Power Transformation Lab / San Diego Supercomputer Center"
+date = "2023 - 2025"
+content = "Designed SQL databases and automation scripts for electricity data in collaboration with the San Diego Supercomputer Center."
+tags = ["Research", "Data Engineering"]
+
+[[items]]
+title = "Data Management Intern"
+subtitle = "Office of the City Treasurer, San Diego"
+date = "2024"
+content = "Built Python-based automation pipelines and web scrapers to improve data workflow efficiency by 70%."
+tags = ["Industry", "Python", "Automation"]
+
+[[items]]
+title = "Quantitative Analysis Intern"
+subtitle = "Soochow Securities"
+date = "2023"
+content = "Conducted asset allocation research using Mean-Variance and Black-Litterman optimization models."
+tags = ["Industry", "Finance", "Quantitative Analysis"]
+
+[[items]]
+title = "Data Assistant"
+subtitle = "Oliver Wyman"
+date = "2022"
+content = "Developed NLP models for keyword analysis and automated API data transfers."
+tags = ["Industry", "NLP", "Data"]
