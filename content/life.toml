@@ -1,6 +1,6 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+title = "Life"
+description = "Beyond research — hobbies, travels, and personal milestones."
 
 [[items]]
 title = "Provost Honors"

@@ -1,6 +1,6 @@
 [[news]]
 date = "2026-03"
-content = "Presented poster at UCSD PhD Open House: *Identifying Causal Genomic Factors and Optimizing Structural Representations for Sequence Modeling*"
+content = "Presented poster *Identifying Causal Genomic Factors and Optimizing Structural Representations for Sequence Modeling* at HDSI PhD Open House, La Jolla, CA"
 
 [[news]]
 date = "2026-01"
@@ -8,11 +8,19 @@ content = "Submitted two papers to COLM 2026: EvoLen and Simulating Organized Gr
 
 [[news]]
 date = "2025-10"
-content = "Presented poster at ASHG 2025: *Enhancing Childhood Asthma Risk Prediction with Biologically Informed Polygenic Transcriptomic Models*"
+content = "Presented poster *Enhancing Childhood Asthma Risk Prediction with Biologically Informed Polygenic Transcriptomic Models* at ASHG 2025, Boston, MA"
 
 [[news]]
 date = "2025-09"
 content = "Started my PhD in Data Science at UC San Diego"
+
+[[news]]
+date = "2025-07"
+content = "Oral presentation and poster *Childhood Asthma Risk Prediction: A Deeper Look at Causal Variants and Genes* at Human Genetics and Genomics Gordon Research Seminar and Conference (GRS and GRC), Portland, ME"
+
+[[news]]
+date = "2025-03"
+content = "Presented poster *Incorporate Deep Learning Model to Better Predict Individual Gene Expression* at HDSI Capstone Showcase, La Jolla, CA"
 
 [[news]]
 date = "2025-03"

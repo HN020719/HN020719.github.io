@@ -57,10 +57,10 @@ target = "experience"
 href = "/experience"
 
 [[navigation]]
-title = "Awards"
+title = "Life"
 type = "page"
-target = "awards"
-href = "/awards"
+target = "life"
+href = "/life"
 
 [[navigation]]
 title = "CV"
