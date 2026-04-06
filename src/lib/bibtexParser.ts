@@ -202,7 +202,7 @@ function parseAuthors(authorsStr: string, highlightNames: string[]): Array<{ nam
       // Remove special markers from name
       name = name.replace(/[*#]/g, '');
 
-      // Handle "Last, First" format
+      // Handle "Last, First" format - convert to "First Last" for matching
       if (name.includes(',')) {
         const parts = name.split(',').map(p => p.trim());
         name = `${parts[1]} ${parts[0]}`;
@@ -210,12 +210,20 @@ function parseAuthors(authorsStr: string, highlightNames: string[]): Array<{ nam
 
       name = cleanBibTeXString(name);
 
-      // Check if this is the site owner (to highlight)
+      // Check if this is the site owner (to highlight) before abbreviating
       const lowerName = name.toLowerCase();
       const normalizedName = normalizePersonNameForMatch(lowerName);
       const isHighlighted =
         highlightTextList.some((candidate) => lowerName.includes(candidate)) ||
         highlightNormalizedList.some((candidate) => normalizedName.includes(candidate));
+
+      // Convert "First Middle Last" to "Last, F. M." abbreviated format
+      const nameParts = name.trim().split(/\s+/);
+      if (nameParts.length >= 2) {
+        const lastName = nameParts[nameParts.length - 1];
+        const initials = nameParts.slice(0, -1).map(p => p.charAt(0).toUpperCase() + '.').join(' ');
+        name = `${lastName}, ${initials}`;
+      }
 
       return {
         name,
