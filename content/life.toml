@@ -1,3 +1,27 @@
 type = "card"
 title = "Life"
-description = ""
+description = "Things I enjoy outside of research."
+
+[[items]]
+title = "Rice"
+subtitle = ""
+date = ""
+content = ""
+
+[[items]]
+title = "Music"
+subtitle = ""
+date = ""
+content = ""
+
+[[items]]
+title = "Food"
+subtitle = ""
+date = ""
+content = ""
+
+[[items]]
+title = "Travel"
+subtitle = ""
+date = ""
+content = ""
