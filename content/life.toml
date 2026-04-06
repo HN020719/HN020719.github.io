@@ -1,9 +1,3 @@
 type = "card"
 title = "Life"
-description = "Beyond research — hobbies, travels, and personal milestones."
-
-[[items]]
-title = "Provost Honors"
-subtitle = "University of California, San Diego"
-date = "2025"
-content = "Awarded upon graduation with B.S. in Data Science, Mathematics and Economics."
+description = ""
